@@ -15,9 +15,9 @@ home = [ "HTML", "RSS", "JSON"]
 	rss = true
 
 	#home page profile
+	avatar = "https://avatars.githubusercontent.com/u/89376495?v=4"
 	name = 'youtai'
 	bio = 'Security enthusiast'
-	avatarurl = "images/avatar.jpg"
 
 	#misc
 	monoDarkIcon = true
