@@ -3,6 +3,8 @@ baseURL = "https://yota22721.github.io/"
 languageCode = 'en-us'
 title = 'YouTai'
 
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 [params]
 	#color style
 	#color = 'light'
