@@ -15,9 +15,11 @@ title = 'YouTai'
 	#home page profile
 	name = 'youtai'
 	bio = 'Security enthusiast'
+	avatarurl = "images/avatar.jpg"
 
 	#misc
 	monoDarkIcon = true
+
 [menu]
 [[menu.main]]
 	identifier = "about"
