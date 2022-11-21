@@ -1,7 +1,7 @@
 theme = "paper"
-baseURL = 'https://yota22721.github.io/'
+baseURL = "https://yota22721.github.io/"
 languageCode = 'en-us'
-title = 'Youtai'
+title = 'YouTai'
 
 [params]
 	#color style
@@ -18,3 +18,15 @@ title = 'Youtai'
 
 	#misc
 	monoDarkIcon = true
+[menu]
+[[menu.main]]
+	identifier = "about"
+	name = "About"
+	url = "/about"
+	weight = 10
+	
+[[menu.main]]
+	identifier = "blog"
+	name = "Blog"
+	url = "/posts"
+	weight = 10
