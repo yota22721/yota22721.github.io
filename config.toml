@@ -1,0 +1,20 @@
+theme = "paper"
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Youtai'
+
+[params]
+	#color style
+	#color = 'light'
+
+	#header social icons
+	twitter = 'yota0x86'
+	github = 'yota22721'
+	rss = true
+
+	#home page profile
+	name = 'youtai'
+	bio = 'Security enthusiast'
+
+	#misc
+	monoDarkIcon = true
