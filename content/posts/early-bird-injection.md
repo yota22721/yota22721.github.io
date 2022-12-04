@@ -21,7 +21,7 @@ According to MITRE definition, Process injection is a method of executing arbitr
 
 The figure below is a brief of classic shellcode injection flow
 
-![process-injection](shellcode_injection_image.png)
+![process-injection](images/shellcode_injection_image.png)
 
 As shown above, Process A gets a handle of Process B first, and VirtualAllocEx allocates a memory buffer into the remote process B.  WriteProcessMemory writes Shellcode into the memory buffer. CreateRemoteThread creates a thread of shellcode inside Process B and the thread will be executed. For more details, you can check here. This is a well-explained code injection on a remote process.
 
@@ -131,7 +131,7 @@ int main(void)
 
 Compile the code and run it
 
-![screenshot2022-11-20](screenshot2022-11-20_164326.png)
+![screenshot2022-11-20](images/screenshot2022-11-20_164326.png)
 
 We see that calc.exe is running so, It seems the injection working successfully.
 
