@@ -6,22 +6,35 @@
     <description>Recent content on YouTai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Nov 2022 22:28:12 +0900</lastBuildDate><atom:link href="https://yota22721.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Nov 2022 02:21:56 +0900</lastBuildDate><atom:link href="https://yota22721.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Early Bird Injection</title>
+      <link>https://yota22721.github.io/posts/20221124/early-bird-injection/</link>
+      <pubDate>Thu, 24 Nov 2022 02:21:56 +0900</pubDate>
+      
+      <guid>https://yota22721.github.io/posts/20221124/early-bird-injection/</guid>
+      <description>overview  Introduction overview of APCqueue injection write injection code in c++ Extra  Introduction A couple of months ago, I got curious about how malware works and evades anti-virus detection. Just pick up injection technics, there’re many kinds of ways that fascinate me a lot. So I decided to write about one of the process injection technics. In this blog, I‘ll mention “Early Bird APC Queue Code Injection”. Now let’s get started!</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://yota22721.github.io/about/</link>
       <pubDate>Mon, 21 Nov 2022 23:14:00 +0900</pubDate>
       
       <guid>https://yota22721.github.io/about/</guid>
-      <description>Student learns reverse engineering and system interneals.</description>
+      <description>Second year at University of Fukui
+Bachelor of electrical and electronic engineering
+I personally learn reverse engineering and system interneals aside from my major.
+These days I&amp;rsquo;m working on windows kernel exploit development with HEVD
+Internship at wolfSSL Japan合同会社(2022/12~)</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://yota22721.github.io/posts/my-first-post/</link>
+      <link>https://yota22721.github.io/posts/20221121/my-first-post/</link>
       <pubDate>Mon, 21 Nov 2022 22:28:12 +0900</pubDate>
       
-      <guid>https://yota22721.github.io/posts/my-first-post/</guid>
+      <guid>https://yota22721.github.io/posts/20221121/my-first-post/</guid>
       <description>Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>
     </item>

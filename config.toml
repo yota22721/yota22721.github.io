@@ -34,3 +34,4 @@ home = [ "HTML", "RSS", "JSON"]
 	name = "Blog"
 	url = "/posts"
 	weight = 10
+
