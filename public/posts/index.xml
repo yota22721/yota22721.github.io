@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on YouTai</title>
+    <title>Posts on Yota blog</title>
     <link>https://yota22721.github.io/posts/</link>
-    <description>Recent content in Posts on YouTai</description>
+    <description>Recent content in Posts on Yota blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Nov 2022 02:21:56 +0900</lastBuildDate><atom:link href="https://yota22721.github.io/posts/index.xml" rel="self" type="application/rss+xml" />

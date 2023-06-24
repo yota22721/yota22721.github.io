@@ -44,7 +44,7 @@ APC injection is a method of executing arbitrary code in the address space of a 
 APC injection is commonly performed by attaching malicious code to the APC Queue of a process's thread.
 
 
-[[https://learn.microsoft.com/en-us/windows/win32/fileio/alertable-i-o](https://learn.microsoft.com/en-us/windows/win32/fileio/alertable-i-o)
+[https://learn.microsoft.com/en-us/windows/win32/fileio/alertable-i-o](https://learn.microsoft.com/en-us/windows/win32/fileio/alertable-i-o)
 
 This time I use  "Early Bird injection”. The advantage of this technique is the malicious behavior takes place early on in the process initialization phase, increasing the likelihood of going under the radar of some AV/EDR hooks.
 
@@ -61,7 +61,6 @@ This is the injection code below.
 
 ```cpp
 #include<windows.h>
-
 
 //payload to run calc.exe
 unsigned char payload[] = {
