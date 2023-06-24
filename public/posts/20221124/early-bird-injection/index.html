@@ -282,7 +282,7 @@
 <p>First of all, What is Process Injection, and how it works?</p>
 <p>According to MITRE definition, Process injection is a method of executing arbitrary code in the address space of a separate live process. This technique is used for evading process-based defenses as well as possibly elevating privileges. Running code in the context of another process may allow access to the process&rsquo;s memory, system/network resources, and possibly elevated privileges. Execution via process injection may also evade detection from security products since the execution is masked under a legitimate process.</p>
 <p>The figure below is a brief of classic shellcode injection flow</p>
-<p><img src="./shellcode_injection_image.png" alt="process-injection"></p>
+<p><img src="../shellcode_injection_image.png" alt="process-injection"></p>
 <p>As shown above, Process A gets a handle of Process B first, and VirtualAllocEx allocates a memory buffer into the remote process B.  WriteProcessMemory writes Shellcode into the memory buffer. CreateRemoteThread creates a thread of shellcode inside Process B and the thread will be executed. For more details, you can check here. This is a well-explained code injection on a remote process.</p>
 <p><a href="https://cocomelonc.github.io/tutorial/2021/09/18/malware-injection-1.html">https://cocomelonc.github.io/tutorial/2021/09/18/malware-injection-1.html</a></p>
 <p>Now that you know the process injection basics, let’s get down to APC injection.</p>
@@ -374,7 +374,7 @@
 
 
 </code></pre></div><p>Compile the code and run it</p>
-<p><img src="./screenshot2022-11-20_164326.png" alt="screenshot2022-11-20"></p>
+<p><img src="../screenshot2022-11-20_164326.png" alt="screenshot2022-11-20"></p>
 <p>We see that calc.exe is running so, It seems the injection working successfully.</p>
 <h3 id="extra">Extra</h3>
 <p>We can use undocumented <code>NtTestAlert</code> function instead of ResumeThread. NtTestAlert dispatches APC queue instantly and executes shellcode.</p>
